@@ -47,7 +47,7 @@ class Addcomponent extends React.Component {
         <label htmlFor="lname">salary:</label>
         <br />
         <input
-          type="text"
+          type="number"
           value={this.state.salary}
           onChange={(event) => this.handeChangeSalary(event)}
         />

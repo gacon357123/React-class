@@ -1,0 +1,28 @@
+* {
+  word-break: break-word;
+}
+
+.list-todo-container {
+  button {
+    cursor: pointer;
+  }
+  .add-todo {
+  }
+  .list-todo-content {
+    .Todo-child {
+      display: flex;
+      justify-content: space-between;
+      span {
+        width: 60%;
+      }
+      &:first-child {
+        margin-top: 15px;
+      }
+      .btn-del-edit {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+    }
+  }
+}
